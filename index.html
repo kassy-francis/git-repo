@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="materialize/css/materialize.css">
     <title>Gitoz</title>
+    <style>
+        .bg{
+            background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
 </head>
 <body>
   <nav class="blue-grey darken-4">
@@ -19,20 +27,23 @@
     </ul>
   </div>
   </nav>
-  <br><br><br>
-  <section>
+  
+  <section class="bg"><br><br>
     <div class="container">
-        <div class="row">
-            <div class="col l6 m6 s12 pull-l1"><br>
-                <h3 style="font-weight:bold">Gitoz</h3>
-                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem explicabo numquam magnam? Molestiae impedit sed ipsa et obcaecati voluptas, ratione, consectetur aliquam hic minima mollitia repellat cumque ullam magnam quo nisi nobis ab nam aspernatur dolor repudiandae sunt totam!</p>
-                <a href="" class="btn-small blue-grey darken-4">Learn More</a>
-            </div>
-            <div class="col l6 m6 s12 push-l1"><br><br><br>
-                <img src="f.jpg" style="width: 100%; border-radius: 20%;" alt="">
-            </div>
+        <div class="center white-text">
+                <h3>Welcome to Gitoz</h3>
+                <p style="width: 68%; margin: auto;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos a non cupiditate error blanditiis laborum est, dignissimos repellat eum iusto. Accusamus sint consectetur magnam eos commodi eius ipsa maiores consequuntur explicabo molestias iusto, quibusdam, laboriosam deleniti voluptas sit, veritatis rerum eum. Officia nulla quis dolorum nesciunt rerum nostrum assumenda a.</p><br>
+                <p style="width: 68%; margin: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates repellendus quos! Laboriosam, ducimus?</p><br><br>
+                <div class="row">
+                    <div class="col l6 m6 s12 push-l2">
+                        <button class="btn-small z-depth-0 white black-text" style="border: 1px solid grey; border-radius: 8px;">Sign In</button>
+                    </div>
+                    <div class="col l6 m6 s12 pull-l2"> 
+                        <button class="btn-small z-depth-0 blue-grey" style="border-radius: 8px;">Sign Up</button>
+                    </div>
+                </div>
           </div>
-    </div>
+    </div><br><br><br>
   </section>
 </body>
 </html>
